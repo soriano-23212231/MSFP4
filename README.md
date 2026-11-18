@@ -54,7 +54,7 @@ Posteriormente, se implementan las representaciones matemáticas y circuitales e
 
 Esta práctica utiliza una **analogía fenomenológica con fines académicos**. El circuito no representa un eje hormonal específico y los valores de sus componentes eléctricos no corresponden directamente a magnitudes fisiológicas medidas experimentalmente.
 
-**Palabras clave:** Sistema endócrino; analogía eléctrica; circuito RLC; función de transferencia; controlador PID; MATLAB; Simulink; Simscape Electrical; Python; instrumentación electrónica.
+**Palabras clave:** Sistema endócrino; analogía eléctrica; circuito RLC; controlador PID; secreción hormonal.
 
 [Volver al contenido](#contenido)
 
@@ -312,7 +312,7 @@ La verificación cruzada contrasta consistentemente las respuestas obtenidas med
 <a id="flujo"></a>
 ## Flujo de trabajo
 
-```mermaid
+```
 flowchart TD
     A[Interpretación fisiológica del sistema endócrino] --> B[Construcción del circuito eléctrico equivalente]
     B --> C[Definición de parámetros control y caso]
@@ -337,7 +337,9 @@ flowchart TD
     Q --> R
     R --> S[Documentación en repositorio GitHub]
 ```
+
 [Volver al contenido](#contenido)
+
 ---
 
 <a id="actividades"></a>
