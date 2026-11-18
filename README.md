@@ -312,7 +312,7 @@ La verificación cruzada contrasta consistentemente las respuestas obtenidas med
 <a id="flujo"></a>
 ## Flujo de trabajo
 
-```
+```mermaid
 flowchart TD
     A[Interpretación fisiológica del sistema endócrino] --> B[Construcción del circuito eléctrico equivalente]
     B --> C[Definición de parámetros control y caso]
@@ -337,7 +337,6 @@ flowchart TD
     Q --> R
     R --> S[Documentación en repositorio GitHub]
 ```
-
 [Volver al contenido](#contenido)
 
 ---
